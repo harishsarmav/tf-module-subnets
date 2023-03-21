@@ -9,7 +9,6 @@ module "subnets" {
   vpc_peering_connection_id = var.vpc_peering_connection_id
 }
 
-#
 #resource "aws_route" "internet_gw_route" {
 #  count                  = var.internet_gw ? 1 : 0
 #  route_table_id         = aws_route_table.route_table.id
